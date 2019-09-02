@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenBuildProjectComponent">
+    <option name="mavenExecutable" value="" />
+    <option name="Settings File" value="" />
+    <option name="mavenCommandLineParams" value="" />
+    <option name="vmOptions" value="" />
+    <option name="useMavenEmbedder" value="false" />
+    <option name="useFilter" value="false" />
+    <option name="Batch Mode" value="false" />
+    <option name="Check Plugin Updates" value="false" />
+    <option name="Debug" value="false" />
+    <option name="Errors" value="false" />
+    <option name="Fail At End" value="false" />
+    <option name="Fail Fast" value="false" />
+    <option name="Fail Never" value="false" />
+    <option name="Lax Checksums" value="false" />
+    <option name="No Plugin Registry" value="false" />
+    <option name="No Plugin Updates" value="false" />
+    <option name="Non Recursive" value="false" />
+    <option name="Offline" value="false" />
+    <option name="Reactor" value="false" />
+    <option name="Strict Checksums" value="false" />
+    <option name="Update Plugins" value="false" />
+    <option name="Update Snapshots" value="false" />
+    <option name="Skip Tests" value="false" />
+    <pom-list />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ly-common/pom.xml" />
+        <option value="$PROJECT_DIR$/ly-search/pom.xml" />
+        <option value="$PROJECT_DIR$/ly-user/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://code.alibabatech.com/schema/dubbo" location="D:/java学习/java/day89_pinyougou_day01-/品优购/资源/约束文件/dubbo.xsd" />
+    <resource url="http://www.springframework.org/schema/aop" location="D:/java学习/java/day89_pinyougou_day01-/品优购/资源/约束文件/spring-aop-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/beans" location="D:/java学习/java/day89_pinyougou_day01-/品优购/资源/约束文件/spring-beans-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/cache" location="D:/java学习/java/day89_pinyougou_day01-/品优购/资源/约束文件/spring-cache-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/context" location="D:/java学习/java/day89_pinyougou_day01-/品优购/资源/约束文件/spring-context-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/jdbc" location="D:/java学习/java/day89_pinyougou_day01-/品优购/资源/约束文件/spring-jdbc-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/jee" location="D:/java学习/java/day89_pinyougou_day01-/品优购/资源/约束文件/spring-jee-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/jms" location="D:/java学习/java/day89_pinyougou_day01-/品优购/资源/约束文件/spring-jms-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/lang" location="D:/java学习/java/day89_pinyougou_day01-/品优购/资源/约束文件/spring-lang-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/mvc" location="D:/java学习/java/day89_pinyougou_day01-/品优购/资源/约束文件/spring-mvc-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/oxm" location="D:/java学习/java/day89_pinyougou_day01-/品优购/资源/约束文件/spring-oxm-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/security" location="D:/java学习/java/day89_pinyougou_day01-/品优购/资源/约束文件/spring-security.xsd" />
+    <resource url="http://www.springframework.org/schema/task" location="D:/java学习/java/day89_pinyougou_day01-/品优购/资源/约束文件/spring-task-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/tool" location="D:/java学习/java/day89_pinyougou_day01-/品优购/资源/约束文件/spring-tool-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/tx" location="D:/java学习/java/day89_pinyougou_day01-/品优购/资源/约束文件/spring-tx-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/util" location="D:/java学习/java/day89_pinyougou_day01-/品优购/资源/约束文件/spring-util-4.2.xsd" />
+    <resource url="http://www.springframework.org/schema/websocket" location="D:/java学习/java/day89_pinyougou_day01-/品优购/资源/约束文件/spring-websocket-4.2.xsd" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
