@@ -1,7 +1,10 @@
 package com.leyou.user.controller;
 
+import com.leyou.common.enums.ExceptionEnum;
+import com.leyou.common.exception.LyException;
 import com.leyou.user.pojo.User;
 import com.leyou.user.service.UserService;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,6 +15,7 @@ import javax.validation.Valid;
 import java.util.stream.Collectors;
 
 @RestController
+@RequestMapping("/user")
 public class UserController {
     @Autowired
     private UserService userService;
@@ -40,7 +44,7 @@ public class UserController {
      * @param phone
      * @return
      */
-    @PostMapping("send")
+    @PostMapping("/send")
     public ResponseEntity<Void> sendVerifyCode(@RequestParam("phone")String phone) {
         userService.sendVerifyCode(phone);
         return ResponseEntity.noContent().build();
@@ -64,4 +68,23 @@ public class UserController {
           userService.register(user,code);
           return  ResponseEntity.status(HttpStatus.CREATED).build();
     }
+
+
+
+     /**
+     　　* @description: 根据用户名和密码查询用户
+     　　* @param ${tags}
+     　　* @return ${return_type}
+     　　* @throws
+     　　* @author river
+     　　* @date 2019/9/6 9:18
+     　　*/
+     @GetMapping("/query")
+     public  ResponseEntity<User> queryUserNameAndPassword(
+             @RequestParam(value = "username",required = true) String username,
+             @RequestParam(value = "password",required = true)String password
+     ){
+         User user = userService.queryUserNameAndPassword(username, password);
+         return  ResponseEntity.ok(user);
+     }
 }
