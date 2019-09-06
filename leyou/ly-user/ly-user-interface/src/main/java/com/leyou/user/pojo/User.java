@@ -27,7 +27,7 @@ public class User {
      private String username;
      @JsonIgnore
      //密码至少8个字符，至少1个大写字母，1个小写字母和1个数字,不能包含特殊字符（非数字字母）
-     @Pattern(regexp = "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$")
+     @Pattern(regexp = "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$",message = "密码至少8个字符，至少1个大写字母，1个小写字母和1个数字,不能包含特殊字符")
      private  String password;
      @Pattern(regexp = "^1[35678]\\d{9}$",message = "手机号格式不正确")
      private  String phone;

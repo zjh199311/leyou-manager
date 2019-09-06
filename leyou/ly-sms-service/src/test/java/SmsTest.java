@@ -7,7 +7,6 @@ import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.HashMap;
@@ -27,9 +26,9 @@ public class SmsTest {
     private  SmsProperties smsProperties;
     @Autowired
     private  SmsUtil smsUtil;
-   /* @Autowired
-    private AmqpTemplate amqpTemplate;*/
-    AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(SmsUtil.class);
+    @Autowired
+    private AmqpTemplate amqpTemplate;
+    AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext();
 
    @Test
     public  void testSms(){
@@ -39,13 +38,14 @@ public class SmsTest {
         }
    }
 
-  /*  @Test
-    public void listenVerifyCode() throws InterruptedException {
+    @Test
+    public void listenVerifyCod() throws InterruptedException {
         Map<String,String> map = new HashMap<>();
-        map.put("phone", "18968047338");
-        map.put("code", "ILoveYou");
+        map.put("phoneNumbers", "13968124519");
+        map.put("code", "123456");
         amqpTemplate.convertAndSend("ly.sms.exchange", "sms.verify.code", map);
-
         Thread.sleep(5000);
-    }*/
+    }
+
+
 }

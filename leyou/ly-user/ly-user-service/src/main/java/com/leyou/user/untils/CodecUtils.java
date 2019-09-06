@@ -32,4 +32,10 @@ public class CodecUtils {
     public static String generateSalt(){
         return StringUtils.replace(UUID.randomUUID().toString(), "-", "");
     }
+
+
+     public static void main(String[] args) {
+         String s = CodecUtils.md5Hex("123456", "05b0f203987e49d2b72b20b95e0e57d9");
+         System.out.println(s);
+     }
 }

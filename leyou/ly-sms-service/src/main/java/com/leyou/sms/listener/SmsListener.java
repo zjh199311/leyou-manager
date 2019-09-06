@@ -42,12 +42,12 @@ public class SmsListener {
         if (msg == null) {
             return;
         }
-        String phone = (String) msg.remove("phone");//remove 删除对象取值
-        if (StringUtils.isBlank(phone)) {
+        String phoneNumbers = (String) msg.get("phoneNumbers");//remove 删除对象取值
+        if (StringUtils.isBlank(phoneNumbers)) {
             return;
         }
-        smsUtil.sendSms(smsProperties.getSignName(),smsProperties.getTemplateCode(), phone, msg);
+        smsUtil.sendSms(smsProperties.getSignName(),smsProperties.getTemplateCode(), phoneNumbers, msg);
         //发送日志
-        log.info("[短信服务]，发送短信验证码，手机号：{}",phone);
+        log.info("[短信服务]，发送短信验证码，手机号：{}",phoneNumbers);
     }
 }

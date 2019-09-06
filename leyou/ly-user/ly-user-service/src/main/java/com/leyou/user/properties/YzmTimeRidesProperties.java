@@ -17,6 +17,6 @@ import org.springframework.stereotype.Component;
 public class YzmTimeRidesProperties {
     private Integer time;
     private  String admqExchange;
-    private  String admqQuence;
+    private  String admqKey;
 
 }

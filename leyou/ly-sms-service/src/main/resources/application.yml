@@ -7,13 +7,13 @@ spring:
     virtual-host: /leyou
     username: admin
     password: 123456
-    host: 192.168.0.152
+    host: 192.168.0.154
   redis:
-    host: 192.168.0.152
+    host: 192.168.0.154
     port: 6379
 leyou:
   sms:
     accessKeyId: LTAIUbauumGulkPj
     accessKeySecret: LM4H8TV0aOapYmKV7LVlxYq1rolCNm
-    SignName:  倪的菜注册 # 签名名称
-    TemplateCode:  SMS_172881816 #短信模板ID
+    templateCode: SMS_172881816 #短信模板ID
+    signName: 倪的菜注册 # 签名名称

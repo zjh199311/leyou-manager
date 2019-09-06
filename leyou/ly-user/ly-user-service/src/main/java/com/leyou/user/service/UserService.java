@@ -17,4 +17,6 @@ public interface UserService {
 
     //用户注册功能接口
     void register(User user, String code);
+
+    User queryUserNameAndPassword(String username, String password);
 }
