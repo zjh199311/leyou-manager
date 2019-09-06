@@ -975,7 +975,7 @@
       <workItem from="1567404266941" duration="11777000" />
       <workItem from="1567473290155" duration="33762000" />
       <workItem from="1567579955995" duration="9981000" />
-      <workItem from="1567646531453" duration="18961000" />
+      <workItem from="1567646531453" duration="19133000" />
     </task>
     <task id="LOCAL-00001" summary="增加根据用户名和密码的查询接口">
       <created>1567737125296</created>
@@ -1020,7 +1020,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="409034000" />
+    <option name="totallyTimeSpent" value="409206000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
