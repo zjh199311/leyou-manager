@@ -9,13 +9,5 @@ import org.apache.ibatis.annotations.Param;
 import tk.mybatis.mapper.common.Mapper;
 
 public interface SpecGroupMapper extends Mapper<SpecGroup> {
-    int countByExample(SpecGroupExample example);
 
-    int deleteByExample(SpecGroupExample example);
-
-    List<SpecGroup> selectByExample(SpecGroupExample example);
-
-    int updateByExampleSelective(@Param("record") SpecGroup record, @Param("example") SpecGroupExample example);
-
-    int updateByExample(@Param("record") SpecGroup record, @Param("example") SpecGroupExample example);
 }

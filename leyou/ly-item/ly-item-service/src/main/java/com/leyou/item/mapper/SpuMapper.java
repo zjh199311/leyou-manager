@@ -9,13 +9,5 @@ import org.apache.ibatis.annotations.Param;
 import tk.mybatis.mapper.common.Mapper;
 
 public interface SpuMapper extends Mapper<Spu> {
-    int countByExample(SpuExample example);
 
-    int deleteByExample(SpuExample example);
-
-    List<Spu> selectByExample(SpuExample example);
-
-    int updateByExampleSelective(@Param("record") Spu record, @Param("example") SpuExample example);
-
-    int updateByExample(@Param("record") Spu record, @Param("example") SpuExample example);
 }

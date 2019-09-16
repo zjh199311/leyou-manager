@@ -3,11 +3,8 @@ package com.leyou.item.mapper;
 import com.leyou.common.mapper.BaseMappers;
 import com.leyou.item.pojo.Brand;
 import com.leyou.item.pojo.Category;
-import com.leyou.item.pojo.Stock;
 import org.apache.ibatis.annotations.*;
-import tk.mybatis.mapper.additional.idlist.IdListMapper;
-import tk.mybatis.mapper.additional.idlist.SelectByIdListMapper;
-import tk.mybatis.mapper.common.Mapper;
+
 
 import java.util.List;
 

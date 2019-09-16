@@ -14,6 +14,7 @@ import org.springframework.stereotype.Service;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 
+import javax.annotation.Resource;
 import java.io.File;
 import java.io.PrintWriter;
 import java.util.Arrays;
@@ -31,13 +32,13 @@ import java.util.Map;
 @Service
 @Slf4j
 public class PageService {
-    @Autowired
+    @Resource
     private GoodsClient goodsClient;
-    @Autowired
+    @Resource
     private BrandClient brandClient;
-    @Autowired
+    @Resource
     private CategoryClient categoryClient;
-    @Autowired
+    @Resource
     private SpecClient specClient;
     @Value("${D:/Linux}")
     private  String dest;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.pinyougou.mapper.SpuDetailMapper" >
+<mapper namespace="com.leyou.item.mapper.SpuDetailMapper" >
   <resultMap id="BaseResultMap" type="com.leyou.item.pojo.SpuDetail" >
     <!--
       WARNING - @mbg.generated
@@ -11,7 +11,7 @@
     <result column="packing_list" property="packingList" jdbcType="VARCHAR" />
     <result column="after_service" property="afterService" jdbcType="VARCHAR" />
   </resultMap>
-  <resultMap id="ResultMapWithBLOBs" type="com.pinyougou.model.SpuDetail" extends="BaseResultMap" >
+  <resultMap id="ResultMapWithBLOBs" type="com.leyou.item.pojo.SpuDetail" extends="BaseResultMap" >
     <!--
       WARNING - @mbg.generated
     -->

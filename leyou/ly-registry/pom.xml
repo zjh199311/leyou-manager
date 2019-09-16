@@ -14,7 +14,7 @@
     <version>1.0.0-SNAPSHOT</version>
 
     <dependencies>
-
+        <!--eureka的服务端-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>

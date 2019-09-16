@@ -35,6 +35,11 @@
         <option value="$PROJECT_DIR$/ly-user/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/ly-registrytwo/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectResources">
     <resource url="http://code.alibabatech.com/schema/dubbo" location="D:/java学习/java/day89_pinyougou_day01-/品优购/资源/约束文件/dubbo.xsd" />

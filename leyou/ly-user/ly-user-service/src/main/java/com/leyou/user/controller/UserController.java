@@ -1,10 +1,7 @@
 package com.leyou.user.controller;
 
-import com.leyou.common.enums.ExceptionEnum;
-import com.leyou.common.exception.LyException;
 import com.leyou.user.pojo.User;
 import com.leyou.user.service.UserService;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -60,11 +57,11 @@ public class UserController {
      　　* @date 2019/8/30 14:34
      　　*/
     @PostMapping("/register")
-    public  ResponseEntity<Void> register(@Valid User user, BindingResult result, @RequestParam(value = "code") String code){
-          if(result.hasErrors()){
+    public  ResponseEntity<Void> register(@Valid User user, @RequestParam(value = "code") String code){
+        /*  if(result.hasErrors()){
               throw  new RuntimeException(result.getFieldErrors().stream()
                       .map(e -> e.getDefaultMessage()).collect(Collectors.joining("|")));
-          }
+          }*/
           userService.register(user,code);
           return  ResponseEntity.status(HttpStatus.CREATED).build();
     }

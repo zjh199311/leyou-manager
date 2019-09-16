@@ -12,22 +12,24 @@ eureka:
   instance:
     prefer-ip-address: true
     ip-address: 127.0.0.1
+
+
 zuul:
   prefix: /api
   retryable: true
   routes:
     item-service: /item/**  # 将商品微服务映射到/item/**
     user-service: /user/**  # 用户微服务
-    auth-service: /auth/**
+    auth-service: /auth/**  # 授权服务
     cart-service: /cart/**
     order-service: /order-service/**
-    upload-service:
+    upload-service:    #上传图片服务
       path: /upload/**
       service: upload-service
       strip-prefix: false
     search-service: /search/**  # 搜索微服务
-  sensitive-headers:
-  add-host-header: true
+  sensitive-headers:     #所有头都添加
+  add-host-header: true  #添加host头信息
 
 hystrix:
   command:

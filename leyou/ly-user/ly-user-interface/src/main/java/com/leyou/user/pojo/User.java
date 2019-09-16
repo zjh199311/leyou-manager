@@ -22,7 +22,7 @@ import java.util.Date;
 public class User {
      @Id
      @KeySql(useGeneratedKeys = true)
-     private  Long id;
+     private  Integer id;
      @Length(min = 4,max = 30,message = "用户名的长度只能在4-30之间")
      private String username;
      @JsonIgnore
