@@ -7,14 +7,12 @@ import com.leyou.common.utils.CookieUtils;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
-import io.jsonwebtoken.Claims;
-import io.jsonwebtoken.Jws;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants;
 
-import javax.jws.Oneway;
+
 import javax.servlet.http.HttpServletRequest;
 
 /**
