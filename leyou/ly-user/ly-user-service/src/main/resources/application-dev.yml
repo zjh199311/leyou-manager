@@ -1,0 +1,42 @@
+server:
+  port: 8087
+
+spring:
+  application:
+    name: user-service
+  datasource:
+      url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: 123456
+  redis:
+      host: 192.168.0.154
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka   #将服务设置到注册中心，服务提供者启动时，会检测配置属性eureka.client.register-with-erueka=true参数是否true，如果为true则向erueka注册自己的服务，结构是双层map
+  instance:
+      lease-renewal-interval-in-seconds: 5 # 每隔5秒发送一次心跳,生产环境按照默认值30s
+      lease-expiration-duration-in-seconds: 10 # 10秒不发送就过期，生产环境按照默认值90s
+      prefer-ip-address: true   # 当调用getHostname获取实例的hostname时，返回ip而不是host名称
+      ip-address: 127.0.0.1  # 指定自己的ip信息，不指定的话会自己寻找
+      instance-id: ${spring.application.name}:${server.port}   #instance-id修改eureka的status显示构成
+
+mybatis:
+  type-aliases-package: com.leyou.user.pojo
+   ##开启驼峰映射
+  configuration:
+       map-underscore-to-camel-case: true
+
+rabbitmq:
+      host: 192.168.0.154
+      username: admin
+      password: 123456
+      virtual-host: /leyou
+
+leyou:
+  code:
+     time: 5
+     admqExchange: ly.sms.exchange
+     admqKey: sms.verify.code

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/leyou.iml" filepath="$PROJECT_DIR$/leyou.iml" />
       <module fileurl="file://$PROJECT_DIR$/leyou-auth/leyou-auth.iml" filepath="$PROJECT_DIR$/leyou-auth/leyou-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/leyou-auth/leyou-authcenter/leyou-authcenter.iml" filepath="$PROJECT_DIR$/leyou-auth/leyou-authcenter/leyou-authcenter.iml" />

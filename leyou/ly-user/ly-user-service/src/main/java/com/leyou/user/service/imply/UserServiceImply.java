@@ -60,7 +60,7 @@ public class UserServiceImply implements UserService{
 
     @Override
     public  void  sendVerifyCode(String phone){
-         //随机生成6位数字的验证码
+        //随机生成6位数字的验证码
         String code = NumberUtils.generateCode(6);
         String key = KEY_PREFIX+phone;
         //向mq中发消息
