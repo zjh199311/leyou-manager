@@ -13,7 +13,7 @@ import java.util.List;
  * @date 2019/9/1616:30
  */
 @Component
-@ConfigurationProperties(prefix = "filter.allowPaths")
+@ConfigurationProperties(prefix = "leyou.filter")
 public class FilterPropertites {
 
     private List<String> allowPaths;

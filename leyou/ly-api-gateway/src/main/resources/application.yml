@@ -21,7 +21,7 @@ zuul:
     item-service: /item/**  # 将商品微服务映射到/item/**
     user-service: /user/**  # 用户微服务
     auth-service: /auth/**  # 授权服务
-    cart-service: /cart/**
+    cart-service: /cart/**  # 购物车服务
     order-service: /order-service/**
     upload-service:    #上传图片服务
       path: /upload/**
@@ -52,9 +52,9 @@ leyou:
      cookieName: LY_TOKEN # cookie的名字
   filter:
      allowPaths:
-       - /api/auth
-       - /api/search
-       - /api/user/register
-       - /api/user/check
-       - /api/user/code
-       - /api/item
+        - /api/auth
+        - /api/search
+        - /api/user/register
+        - /api/user/check
+        - /api/user/code
+        - /api/item

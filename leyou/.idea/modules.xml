@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/leyou-auth/leyou-authcommon/leyou-authcommon.iml" filepath="$PROJECT_DIR$/leyou-auth/leyou-authcommon/leyou-authcommon.iml" />
       <module fileurl="file://$PROJECT_DIR$/leyou-page/leyou-page.iml" filepath="$PROJECT_DIR$/leyou-page/leyou-page.iml" />
       <module fileurl="file://$PROJECT_DIR$/ly-api-gateway/ly-api-gateway.iml" filepath="$PROJECT_DIR$/ly-api-gateway/ly-api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ly-cart/ly-cart.iml" filepath="$PROJECT_DIR$/ly-cart/ly-cart.iml" />
       <module fileurl="file://$PROJECT_DIR$/ly-common/ly-common.iml" filepath="$PROJECT_DIR$/ly-common/ly-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/ly-item/ly-item.iml" filepath="$PROJECT_DIR$/ly-item/ly-item.iml" />
       <module fileurl="file://$PROJECT_DIR$/ly-item/ly-item-interface/ly-item-interface.iml" filepath="$PROJECT_DIR$/ly-item/ly-item-interface/ly-item-interface.iml" />

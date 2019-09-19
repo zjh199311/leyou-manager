@@ -63,6 +63,7 @@ public enum  ExceptionEnum {
     SPEC_GROUP_NOT_FOUND(204, "规格组查询失败"),
     DELETE_SPEC_GROUP_FAILED(500, "商品规格组删除失败"),
     UPDATE_SPEC_GROUP_FAILED(500, "商品规格组更新失败"),
+    NOT_FOUND_CARTLIST(404,"购物车列表为空")
     ;
     int value;
     String message;

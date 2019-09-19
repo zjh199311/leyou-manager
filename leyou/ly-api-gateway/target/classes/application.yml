@@ -21,14 +21,14 @@ zuul:
     item-service: /item/**  # 将商品微服务映射到/item/**
     user-service: /user/**  # 用户微服务
     auth-service: /auth/**  # 授权服务
-    cart-service: /cart/**
+    cart-service: /cart/**  # 购物车服务
     order-service: /order-service/**
     upload-service:    #上传图片服务
       path: /upload/**
       service: upload-service
       strip-prefix: false
     search-service: /search/**  # 搜索微服务
-  sensitive-headers:     #所有头都添加
+  sensitive-headers:     #所有敏感头都添加
   add-host-header: true  #添加host头信息
 
 hystrix:
@@ -45,3 +45,16 @@ ribbon:
   OkToRetryOnAllOperations: true # 是否对所有操作重试
   MaxAutoRetriesNextServer: 0 # 同一服务不同实例的重试次数
   MaxAutoRetries: 0 # 同一实例的重试次数
+
+leyou:
+  getway:
+     pubKeyPath: D:\\Git\\rsa\\rsa.pub #公钥地址
+     cookieName: LY_TOKEN # cookie的名字
+  filter:
+     allowPaths:
+        - /api/auth
+        - /api/search
+        - /api/user/register
+        - /api/user/check
+        - /api/user/code
+        - /api/item

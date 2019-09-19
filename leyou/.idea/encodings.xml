@@ -8,12 +8,12 @@
     <file url="file://$PROJECT_DIR$/leyou-auth/leyou-authcommon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/leyou-page" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-api-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ly-cart" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-item" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-item/ly-item-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-item/ly-item-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-registry" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ly-registrytwo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-search" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-sms-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-upload" charset="UTF-8" />
