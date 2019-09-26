@@ -5,6 +5,7 @@ import com.github.pagehelper.PageInfo;
 import com.leyou.common.enums.ExceptionEnum;
 import com.leyou.common.exception.LyException;
 import com.leyou.common.vo.PageResult;
+import com.leyou.item.dto.CartDto;
 import com.leyou.item.mapper.SkuMapper;
 import com.leyou.item.mapper.SpuDetailMapper;
 import com.leyou.item.mapper.SpuMapper;
@@ -16,6 +17,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.CollectionUtils;
 import tk.mybatis.mapper.entity.Example;
 
@@ -256,6 +258,28 @@ public class GoodsServiceImply implements GoodsService{
         SpuDetail spuDetail = queryDetailBySpuId(id);
         spu.setSpuDetail(spuDetail);
         return  spu;
+    }
+
+    @Override
+    @Transactional
+    public List<Sku> querySkusByIds(List<Long> ids) {
+        List<Sku> skuList = skuMapper.selectByIdList(ids);
+        return skuList;
+    }
+
+
+
+    @Override
+    @Transactional
+    public void decreaseStock(List<CartDto> cartDtos) {
+        for (CartDto cartDto : cartDtos) {
+            Long skuId = cartDto.getSku_id();
+            Integer num = cartDto.getNum();
+            int stockInt = stockMapper.decreaseStock(skuId,num);
+            if (stockInt!=1){
+                throw new LyException(ExceptionEnum.STOCK_NOT_ENOUGH);
+            }
+        }
     }
 
 }

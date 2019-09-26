@@ -39,6 +39,9 @@ public enum  ExceptionEnum {
 
     RECEIVER_ADDRESS_NOT_FOUND(400, "收获地址不存在"),
     ORDER_NOT_FOUND(400, "订单不存在"),
+    INSERT_ORDER_ERR(400,"新增订单失败"),
+    INSERT_ORDERDETAIL_ERR(400,"新增订单详情失败"),
+    INSERT_ORDERSTATUS_ERR(400,"新增订单状态失败"),
     ORDER_STATUS_EXCEPTION(500, "订单状态异常"),
     CREATE_PAY_URL_ERROR(500, "常见支付链接异常"),
     WX_PAY_SIGN_INVALID(400, "微信支付签名异常"),

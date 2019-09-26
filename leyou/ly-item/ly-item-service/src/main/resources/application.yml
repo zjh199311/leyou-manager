@@ -39,14 +39,17 @@ eureka:
       instance-id: ${spring.application.name}:${server.port}
 
 mybatis:
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-     ##开启驼峰映射
-    map-underscore-to-camel-case: true
   type-aliases-package: com.leyou.item.pojo
   mapper-locations:
-     - classpath:mybatis/mapping/*.xml
-  config-location: classpath:mybatis/mybatis.cfg.xml
+       - classpath:mybatis/mapping/*.xml
+  #config-location: classpath:mybatis/mybatis.cfg.xml
+  configuration:
+    ##开启驼峰映射
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+
 
 
 

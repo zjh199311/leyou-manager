@@ -1,14 +1,15 @@
 package com.leyou.item.mapper;
 
 
-import java.util.List;
 
 import com.leyou.common.mapper.BaseMappers;
 import com.leyou.item.pojo.Stock;
-import com.leyou.item.pojo.StockExample;
 import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Update;
 
 
 public interface StockMapper extends BaseMappers<Stock,Long> {
 
+    @Update("update tb_stock set stock = stock - #{num} where sku_id = #{skuId} and stock >= #{num}")
+    int decreaseStock(@Param("skuId") Long skuId,@Param("num") Integer num);
 }

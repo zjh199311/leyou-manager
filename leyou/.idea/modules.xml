@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/leyou-auth/leyou-auth.iml" filepath="$PROJECT_DIR$/leyou-auth/leyou-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/leyou-auth/leyou-authcenter/leyou-authcenter.iml" filepath="$PROJECT_DIR$/leyou-auth/leyou-authcenter/leyou-authcenter.iml" />
       <module fileurl="file://$PROJECT_DIR$/leyou-auth/leyou-authcommon/leyou-authcommon.iml" filepath="$PROJECT_DIR$/leyou-auth/leyou-authcommon/leyou-authcommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leyou-order/leyou-order.iml" filepath="$PROJECT_DIR$/leyou-order/leyou-order.iml" />
       <module fileurl="file://$PROJECT_DIR$/leyou-page/leyou-page.iml" filepath="$PROJECT_DIR$/leyou-page/leyou-page.iml" />
       <module fileurl="file://$PROJECT_DIR$/ly-api-gateway/ly-api-gateway.iml" filepath="$PROJECT_DIR$/ly-api-gateway/ly-api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/ly-cart/ly-cart.iml" filepath="$PROJECT_DIR$/ly-cart/ly-cart.iml" />

@@ -25,6 +25,7 @@ public class Order implements Serializable {
     @Column(name = "actual_pay")
     private Long actualPay;
 
+    //促销活动(满足的条件)
     @Column(name = "promotion_ids")
     private String promotionIds;
 

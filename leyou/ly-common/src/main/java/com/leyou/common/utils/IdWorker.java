@@ -1,8 +1,12 @@
 package com.leyou.common.utils;
 
+import javax.lang.model.element.VariableElement;
 import java.lang.management.ManagementFactory;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.Date;
 
 /**
  * <p>名称：IdWorker.java</p>
@@ -77,7 +81,7 @@ public class IdWorker {
      *
      * @return
      */
-    public synchronized long nextId() {
+    public synchronized String nextId() {
         long timestamp = timeGen();
         if (timestamp < lastTimestamp) {
             throw new RuntimeException(String.format("Clock moved backwards.  Refusing to generate id for %d milliseconds", lastTimestamp - timestamp));
@@ -99,8 +103,25 @@ public class IdWorker {
                 | (datacenterId << datacenterIdShift)
                 | (workerId << workerIdShift) | sequence;
 
-        return nextId;
+        String orderId =this.dateTmie()+ String.valueOf(nextId);
+        return orderId ;
     }
+
+    //订单id组合时间的方法
+    public String dateTmie(){
+        Date date = new Date();
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd-hh-mm-ss");
+        String format = dateFormat.format(date);
+        String[] timeArry = format.split("-");
+        String newDateTime = "";
+        for (int i =0 ;i<timeArry.length;i++){
+               newDateTime +=timeArry[i];
+        }
+        String trimTime = newDateTime.replaceAll("","");
+        return  trimTime;
+
+    }
+
 
     private long tilNextMillis(final long lastTimestamp) {
         long timestamp = this.timeGen();
@@ -159,5 +180,9 @@ public class IdWorker {
         return id;
     }
 
-
+    public static void main(String[] args) {
+        IdWorker idWorker = new IdWorker();
+        String aLong = idWorker.nextId();
+        System.out.println(aLong);
+    }
 }

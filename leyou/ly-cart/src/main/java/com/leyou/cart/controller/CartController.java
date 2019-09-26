@@ -24,7 +24,7 @@ public class CartController {
     private CartService cartService;
 
      /**
-     　　* @description: 添加购物车 Map<用户id，Map<购物车id，购物车的内容>>
+     　　* @description: 添加购物车 Map<用户id，Map<商品id，购物车的内容>>
      　　* @param ${tags}
      　　* @return ${return_type}
      　　* @throws
@@ -71,4 +71,32 @@ public class CartController {
             }
             return  ResponseEntity.ok(cartList);
     }
+
+     /**
+     　　* @description: 修改购物车数量
+     　　* @param  shopId 商品id
+     　　* @return ${return_type}
+     　　* @throws
+     　　* @author river
+     　　* @date 2019/9/20 9:33
+     　　*/
+    @PostMapping("/updateCart")
+    public  ResponseEntity<Void> updateNum(@RequestParam("shopId") Long shopId, @RequestParam("num") Integer num){
+           cartService.updateNum(shopId,num);
+           return  ResponseEntity.ok().build();
+    }
+
+
+    /**
+     * 从购物车中删除商品
+     *
+     * @param id
+     * @return
+     */
+    @DeleteMapping("{id}")
+    public ResponseEntity<Void> deleteCart(@PathVariable("id") Long id) {
+        cartService.deleteCart(id);
+        return ResponseEntity.ok().build();
+    }
+
 }

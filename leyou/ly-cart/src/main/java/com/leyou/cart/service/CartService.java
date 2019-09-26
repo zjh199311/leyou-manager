@@ -17,4 +17,8 @@ public interface CartService {
     void addCart(Cart cart);
     //查询购物车，根据用户id查询购物车
     List<Cart> queryListCart();
+
+    void updateNum(Long shopId, Integer num);
+
+    void deleteCart(Long id);
 }
