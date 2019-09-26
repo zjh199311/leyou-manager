@@ -1,73 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e374bd8d-d49e-42b0-a4ea-1ae0f066b6c5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/src/main/java/com/leyou/cart/controller/CartController.java" afterPath="$PROJECT_DIR$/ly-cart/src/main/java/com/leyou/cart/controller/CartController.java" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/src/main/java/com/leyou/cart/service/CartService.java" afterPath="$PROJECT_DIR$/ly-cart/src/main/java/com/leyou/cart/service/CartService.java" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/src/main/java/com/leyou/cart/service/imply/CartServiceImply.java" afterPath="$PROJECT_DIR$/ly-cart/src/main/java/com/leyou/cart/service/imply/CartServiceImply.java" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/target/classes/com/leyou/cart/controller/CartController.class" afterPath="$PROJECT_DIR$/ly-cart/target/classes/com/leyou/cart/controller/CartController.class" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/target/classes/com/leyou/cart/service/CartService.class" afterPath="$PROJECT_DIR$/ly-cart/target/classes/com/leyou/cart/service/CartService.class" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/target/classes/com/leyou/cart/service/imply/CartServiceImply.class" afterPath="$PROJECT_DIR$/ly-cart/target/classes/com/leyou/cart/service/imply/CartServiceImply.class" />
-      <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/enums/ExceptionEnum.java" afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/enums/ExceptionEnum.java" />
-      <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/utils/IdWorker.java" afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/utils/IdWorker.java" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/advice/BasicExceptionHandler.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/enums/ExceptionEnum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/exception/LyException.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/mapper/BaseMappers.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/CookieUtils$CookieBuilder.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/CookieUtils.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/IdWorker.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/JsonUtils.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/NumberUtils.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/vo/ExceptionResult.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/vo/PageResult.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java" afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Order.java" afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Order.java" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/leyou/item/api/GoodsApi.class" afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/leyou/item/api/GoodsApi.class" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/Order.class" afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/Order.class" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/controller/GoodsController.java" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/controller/GoodsController.java" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/StockMapper.java" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/StockMapper.java" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/GoodsService.java" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/GoodsService.java" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/imply/GoodsServiceImply.java" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/imply/GoodsServiceImply.java" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/application.yml" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/LyItemService.class" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/LyItemService.class" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/controller/GoodsController.class" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/controller/GoodsController.class" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/CategoryBrandMapper.class" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/CategoryBrandMapper.class" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/CouponMapper.class" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/CouponMapper.class" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/OrderDetailMapper.class" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/OrderDetailMapper.class" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/OrderMapper.class" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/OrderMapper.class" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/OrderStatusMapper.class" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/OrderStatusMapper.class" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/PayLogMapper.class" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/PayLogMapper.class" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/SkuMapper.class" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/SkuMapper.class" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/SpecGroupMapper.class" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/SpecGroupMapper.class" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/SpuDetailMapper.class" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/SpuDetailMapper.class" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/SpuMapper.class" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/SpuMapper.class" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/StockMapper.class" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/StockMapper.class" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/UserMapper.class" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/UserMapper.class" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/service/GoodsService.class" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/service/GoodsService.class" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/service/imply/GoodsServiceImply.class" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/service/imply/GoodsServiceImply.class" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/BrandMapper.xml" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/BrandMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/CategoryBrandMapper.xml" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/CategoryBrandMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/CategoryMapper.xml" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/CategoryMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/CouponMapper.xml" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/CouponMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/OrderDetailMapper.xml" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/OrderDetailMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/OrderMapper.xml" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/OrderMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/OrderStatusMapper.xml" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/OrderStatusMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/PayLogMapper.xml" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/PayLogMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/SkuMapper.xml" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/SkuMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/SpecGroupMapper.xml" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/SpecGroupMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/SpuDetailMapper.xml" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/SpuDetailMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/SpuMapper.xml" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/SpuMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/StockMapper.xml" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/StockMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/UserMapper.xml" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/mybatis/mapping/UserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-    </list>
+    <list default="true" id="e374bd8d-d49e-42b0-a4ea-1ae0f066b6c5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/ly-registry/target/" />
@@ -148,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/order/service/imply/OrderServiceImply.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="657">
-              <caret line="137" column="1" lean-forward="true" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
+              <caret line="137" column="1" lean-forward="false" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -328,7 +262,7 @@
     <option name="skipTests" value="true" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="2391" />
     <option name="y" value="-9" />
     <option name="width" value="2418" />
@@ -952,7 +886,7 @@
       <workItem from="1569027896040" duration="21884000" />
       <workItem from="1569201389252" duration="45144000" />
       <workItem from="1569374055247" duration="8661000" />
-      <workItem from="1569460596770" duration="1505000" />
+      <workItem from="1569460596770" duration="1976000" />
     </task>
     <task id="LOCAL-00001" summary="增加根据用户名和密码的查询接口">
       <created>1567737125296</created>
@@ -997,7 +931,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="678481000" />
+    <option name="totallyTimeSpent" value="678952000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1009,7 +943,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2391" y="-9" width="2418" height="1318" extended-state="6" />
+    <frame x="2391" y="-9" width="2418" height="1318" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
@@ -1494,7 +1428,7 @@
     <entry file="file://$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/order/service/imply/OrderServiceImply.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="657">
-          <caret line="137" column="1" lean-forward="true" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
+          <caret line="137" column="1" lean-forward="false" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
           <folding />
         </state>
       </provider>
